@@ -1,0 +1,78 @@
+body {
+  background-color: #403060;
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.child a{
+    background: #4B29A4;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'blackchancery';
+    font-size: 70px;
+    border: 1px solid #ffffff;
+    opacity: 0.7;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    cursor: pointer;
+}
+.child a:hover{
+    opacity: 1;
+}
+
+
+/* task 4 popup table */
+.wrap {
+    display: none;
+    opacity: .8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, .725);
+    z-index: 100;
+    overflow: auto;
+}
+
+.close {
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #000;
+}
+
+.close svg {
+    padding-top: 16%;
+    padding-left: 3%;
+}
+
+.popup-item {
+    left: 10%;
+    display: none;
+    position: fixed;
+    top: 10%;
+    width: 80%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: rgb(220, 220, 220);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 14px 1px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 1px 14px 1px rgba(0, 0, 0, .75);
+    box-shadow: 0 1px 14px 1px rgba(0, 0, 0, .75);
+    z-index: 200;
+}
+
+.video{
+    width: 80%;
+}

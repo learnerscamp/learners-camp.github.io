@@ -1,0 +1,51 @@
+body{
+	background-image: url(../img-physics/physics-background.jpg);
+	background-attachment: fixed;
+	background-size: auto 110%;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	margin: 0;
+}
+.parts{
+	margin: 0;
+	font-family: 'blackchancery';
+	font-size: 70px;
+}
+.parts ul li a{
+	opacity: 0.9;
+	background: #ffffff;
+	border: 3px solid;
+	text-decoration: none;
+	border-radius: 100px;
+}
+.parts ul li a:hover {
+	opacity: 1;
+}
+.parts ul {
+	margin: 0;
+}
+.parts ul li{
+	margin: 0;
+	line-height: 150px;
+	list-style: none;
+}
+.mechanics a{
+	border-color: #AD69FF;
+	color: #AD69FF;
+}
+.mechanics a:hover{
+	color: #8F00FF;
+	border: 3px solid #8F00FF;
+}
+.kinematics a{
+	color: #2167FE;
+	border-color: #2167FE;
+}
+.kinematics a:hover{
+	color: #0051FE;
+	border-color: #0051FE;
+}
+.kinematics a:active {
+	color: #0943B8;
+	border-color: #0943B8;
+}
